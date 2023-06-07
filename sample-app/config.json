@@ -1,0 +1,14 @@
+{
+    "name": "WebAppKit",
+    "description": "What is my app for ?",
+    "author": "User",
+    "version": "0.0.1",
+    "launchScreen": "home_screen",
+    "icon": "logo.png",
+    "title": {
+        "name": "Web App Kit",
+        "color": "white",
+        "display": "all"
+    },
+    "backgroundColor": "rgb(50, 50, 50)"
+}
