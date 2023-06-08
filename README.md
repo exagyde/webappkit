@@ -27,7 +27,7 @@ Using methods when `App` is called :
 
 Custom variables you can use :
 
-| Variable | Values |
+| Variable | Options |
 | ------ | ------ |
 | FileFormat | PNG, JPG, GIF |
 
@@ -64,9 +64,9 @@ In your screen JavaScript file :
 
 ```javascript
 import { App } from "./../../app/App.js";
-import { CustomButton } from "./../../components/MyComponent.js";
+import { MyComponent } from "./../../components/MyComponent.js";
 
-App.addComponent("my-component", CustomButton);
+App.addComponent("my-component", MyComponent);
 ```
 
 In your screen HTML file :
