@@ -7,8 +7,8 @@
     "icon": "logo.png",
     "title": {
         "name": "Web App Kit",
-        "color": "white",
         "display": "all"
     },
+    "color": "white",
     "backgroundColor": "rgb(50, 50, 50)"
 }

@@ -9,7 +9,7 @@ const STYLE = `
 class CustomButton extends CustomComponent {
     constructor() {
         super();
-        this.onclick = () => window.location.href = "https://github.com";
+        this.onclick = () => window.location.href = "https://github.com/exagyde/webappkit";
     }
 
     render() {
