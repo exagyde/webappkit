@@ -1,0 +1,15 @@
+{
+  "name": "wak",
+  "version": "1.0.0",
+  "description": "Manage WebAppKit framework",
+  "main": "wak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nolann Morencé",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
