@@ -74,6 +74,7 @@ In your screen HTML file :
 ```html
 <my-component value="Hello blue text"></my-component>
 ```
+You can define all properties you want for your component
 
 ---
 
@@ -97,7 +98,11 @@ In your screen HTML file :
 
 - Launch your app on your default browser
 
-`node wak.js ./MyApp run`
+`node wak.js ./MyApp start`
+
+- Upgrade you app version
+
+`node wak.js ./MyApp upgrade`
 
 ---
 
