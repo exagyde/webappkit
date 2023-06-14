@@ -1,15 +1,20 @@
 {
-  "name": "wak",
-  "version": "1.0.0",
+  "name": "wakx",
+  "version": "1.0.5",
   "description": "Manage WebAppKit framework",
-  "main": "wak.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "script.js",
   "author": "Nolann Morencé",
   "license": "MIT",
   "dependencies": {
     "live-server": "^1.2.2",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "bin": {
+    "wakx": "./script.js"
+  },
+  "keywords": [
+    "webappkit",
+    "wakx",
+    "wak"
+  ]
 }
