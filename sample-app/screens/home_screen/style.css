@@ -36,6 +36,11 @@ body > * {
     margin: 20px;
 }
 
+img {
+    width: 35vh;
+    height: 35vh;
+}
+
 small {
     font-weight: bold;
 }
