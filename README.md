@@ -76,33 +76,45 @@ In your screen HTML file :
 ```
 You can define all properties you want for your component
 
+**⚠️ Your custom component tag has to have at minimum one dash like `<dark-button>` or `<big-title-header>`**
+
 ---
 
 ## How to use WebAppKit node package ?
 
+- Prerequisites
+
+[Node.js with npm and npx](https://nodejs.org/en)
+
 - Install the necessary packages
 
-`npm install`
+`npm install wakx`
 
 - Initiate a new project
 
-`node wak.js init`
+`npx wakx init`
 
 - Create a new screen
 
-`node wak.js ./MyApp screen`
+`npx wakx ./MyApp screen`
 
 - Create a new component
 
-`node wak.js ./MyApp component`
+`npx wakx ./MyApp component`
 
 - Launch your app on your default browser
 
-`node wak.js ./MyApp start`
+`npx wakx ./MyApp start`
+
+- Just start the server
+
+`npx wakx ./MyApp server`
 
 - Upgrade you app version
 
-`node wak.js ./MyApp upgrade`
+`npx wakx ./MyApp upgrade`
+
+You can also use my package locally by donwloading **package-npm** folder, install necessary packages with `npm install` in the folder, and by using `node ./wakx.js ...`
 
 ---
 
