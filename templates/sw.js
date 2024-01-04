@@ -1,0 +1,1 @@
+const CACHE_NAME="webappkit",FILES_TO_CACHE=["/","/index.html","/app/App.js","/app/register.js","/app/style.css","/favicon.ico"];self.addEventListener("install",(e=>{e.waitUntil(caches.open(CACHE_NAME).then((e=>e.addAll(FILES_TO_CACHE))))})),self.addEventListener("fetch",(e=>{e.respondWith(caches.match(e.request).then((t=>t||fetch(e.request))))}));

@@ -1,0 +1,29 @@
+{
+  "name": "wakx",
+  "version": "1.1.0",
+  "description": "Manage WebAppKit framework",
+  "main": "main.js",
+  "author": "Nolann Morencé",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "prompts": "^2.4.2",
+    "wakx": "^1.1.2"
+  },
+  "bin": {
+    "wakx": "./main.js"
+  },
+  "files": [
+    "templates",
+    "wak_title.png"
+  ],
+  "keywords": [
+    "webappkit",
+    "wakx",
+    "wak",
+    "framework",
+    "web app",
+    "pwa",
+    "progressive web app"
+  ]
+}

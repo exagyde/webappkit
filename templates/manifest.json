@@ -1,0 +1,38 @@
+{
+	"name": "{{ APP_NAME }}",
+	"short_name": "{{ APP_SHORT_NAME }}",
+    "icons": [
+        {
+            "src": "/resources/icons/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }, {
+            "src": "/resources/icons/icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }, {
+            "src": "/resources/icons/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }, {
+            "src": "/resources/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }, {
+            "src": "/resources/icons/icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }, {
+            "src": "/resources/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+	"lang": "{{ APP_LANG }}",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "{{ APP_BACKGROUND_COLOR }}",
+	"theme_color": "{{ APP_THEME_COLOR }}",
+    "launch_screen": "{{ APP_LAUNCH_SCREEN }}",
+    "description": "{{ APP_DESCRIPTION }}"
+}

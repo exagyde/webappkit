@@ -1,0 +1,10 @@
+body > h1 {
+    text-align: center;
+    margin: auto;
+    animation: reveal 3s;
+}
+
+@keyframes reveal {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

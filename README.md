@@ -1,12 +1,16 @@
 # Web App Kit framework
-Little framework to develop prototype of web app who looks like native (Progressive Web App)
 
-​![WAK Logo](./wak_logo_full.jpg)
+Minimalist and lightweight framework to init and build web app based on Progressive Web App process, web app like native application.
+
+​![WAK Logo](https://github.com/exagyde/webappkit/blob/main/wak_title.jpg)
+
+[GitHub project link](https://github.com/exagyde/webappkit)
 
 ## What I can do ?
 
-- Manage easily your app screens
-- Create custom components with web component
+- Create easily progressive web app
+- Manage your app screens
+- Use custom components with web component
 
 ## What I can't do ?
 
@@ -21,15 +25,8 @@ Using methods when `App` is called :
 | Function | Arguments | Types | Description |
 | -------- | --------- | ----- | ----------- |
 | navigate | screenName | string | Switch into another screen |
-| alert | message | string | Display an alert on main screen |
-| getResourceURL | name, format | string, FileFormat | Return your resource link |
+| getResourceURL | file | string | Return your resource link |
 | addComponent | tag, component | string, string | Define your custom web component in the DOM |
-
-Custom variables you can use :
-
-| Variable | Options |
-| ------ | ------ |
-| FileFormat | PNG, JPG, GIF |
 
 ### Create custom component
 
@@ -102,25 +99,18 @@ You can define all properties you want for your component
 
 `npx wakx ./MyApp component`
 
-- Launch your app on your default browser
+- Start a local server and run your app
 
 `npx wakx ./MyApp start`
 
-- Just start the server
+-p PORT | --port PORT : Define server port number\
+-l | --launch : Open app on default browser
 
-`npx wakx ./MyApp server`
+- Build app with manifest update
 
-- Upgrade you app version
-
-`npx wakx ./MyApp upgrade`
+`npx wakx ./MyApp build`
 
 You can also use my package locally by donwloading **package-npm** folder, install necessary packages with `npm install` in the folder, and by using `node ./wakx.js ...`
-
----
-
-## VSCode extension
-
-*Coming soon*
 
 ---
 
@@ -130,4 +120,4 @@ You can test your web app like native app just to add it as a shortcut on your m
 
 ---
 
-#### __©2023 NanoDév Studio__
+#### __©2024 Nolann Morencé__
