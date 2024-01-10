@@ -2,7 +2,7 @@
   "name": "wakx",
   "version": "1.1.4",
   "description": "Manage WebAppKit framework",
-  "main": "main.js",
+  "main": "wakx.js",
   "author": "Nolann Morencé",
   "license": "MIT",
   "dependencies": {
@@ -11,7 +11,7 @@
     "wakx": "^1.1.2"
   },
   "bin": {
-    "wakx": "./main.js"
+    "wakx": "./wakx.js"
   },
   "files": [
     "templates",
