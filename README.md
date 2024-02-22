@@ -71,7 +71,7 @@ In your screen HTML file :
 ```html
 <my-component value="Hello blue text"></my-component>
 ```
-You can define all properties you want for your component
+You can define all properties you want for your component. Components have dynamic attributes, changing an attribute with the setAttribute method will refresh the component.
 
 **⚠️ Your custom component tag has to have at minimum one dash like `<dark-button>` or `<big-title-header>`**
 
