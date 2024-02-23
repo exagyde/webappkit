@@ -4,7 +4,7 @@ Minimalist and lightweight framework to init and build web app based on Progress
 
 ​![WAK Logo](https://github.com/exagyde/webappkit/blob/main/wak_title.jpg)
 
-[GitHub project link](https://github.com/exagyde/webappkit)
+[NPM project link](https://www.npmjs.com/package/wakx)
 
 ## What I can do ?
 
@@ -42,13 +42,18 @@ const STYLE = `
 class MyComponent extends CustomComponent {
     constructor() {
         super();
-        // Add events listener like this.onclick
+        // Add events listener or other
     }
 
     render() {
         return `
             <span style="${STYLE}">${this.properties.value}</span>
         `;
+    }
+
+    update() {
+        // Optional
+        // Define processing after displaying the component and its updates
     }
 }
 

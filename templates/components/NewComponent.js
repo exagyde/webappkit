@@ -12,6 +12,8 @@ class NewComponent extends CustomComponent {
             <div style="${STYLE}">NewComponent</div>
         `;
     }
+
+    update() {}
 }
 
 export { NewComponent };

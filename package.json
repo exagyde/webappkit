@@ -1,6 +1,6 @@
 {
   "name": "wakx",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Manage WebAppKit framework",
   "main": "wakx.js",
   "author": "Nolann Morencé",
